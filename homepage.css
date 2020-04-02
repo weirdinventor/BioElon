@@ -1,0 +1,151 @@
+/* style de la 1er section*/
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+.elon_pic{
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.14);
+    
+}
+
+.quote_area{
+    text-align: end;
+    font-size: 30px;
+    width: 50%;
+    word-spacing: 2px;
+}
+
+#quote{
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#quote_name{
+    font-style: italic;
+    padding-top: 10px;
+    color: rgb(73, 73, 73);
+}
+
+/* style de la 2eme section */
+.sec2{
+    display: flex;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    background-color: white;
+    height: 150px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.intro{
+    text-align: center;
+    font-size: 20px;
+    padding-left:  20%;
+    padding-right: 20% ;
+}
+
+/* style de la 3eme section  */
+.sec3{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    height: 150px;
+    justify-content: center;
+}
+
+td{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    
+}
+
+.bio_links{
+    width: 50%;
+    height: 100px;
+}
+
+td a{
+    text-decoration: none;
+    color:black;
+}
+
+/* style de la 4eme section  */
+.sec4{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.book{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.book_area{
+    text-align: start;
+    font-size: 30px;
+    width: 50%;
+    word-spacing: 2px;
+}
+
+#book_name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#auth_name{
+    font-style: italic;
+    padding-top: 10px;
+    color: rgb(73, 73, 73)
+}
+
+.book_pic{
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.14);
+    
+}
+
+/* chaque titre h2 a un padding en bas */
+h2{
+    padding-bottom: 30px;
+}
+
+
+/* responsive les elements sont placés l'un au dessus de l'autre */
+@media screen and (max-width: 700px) {
+    .sec1,.sec2,.sec3,.book {   
+      flex-direction: column;
+      flex-wrap: wrap-reverse;
+      align-items: center;
+      height: max-content;
+    }
+    .quote_area{
+        width: 100%;
+    }
+    .book_area{
+        width: 100%;
+    }
+    
+}
+

@@ -1,0 +1,12 @@
+/* style principal pour toutes les sections :taille de police, marge et padding */
+section{
+    font-size: 20px;
+    padding-left:  15%;
+    padding-right: 15% ;
+    margin-bottom: 30px;
+}
+
+/* les titres h2 et paragraphes ont une marge au dessus */
+h2,p{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography</title>
+    <!-- Les fichiers css du site-->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="homepage.css">
+    <!-- les fichiers javascript -->
+    <script src="./script/script.js"></script>
+</head>
+<body id="top">
+    <!--la bare de titre , le titre est centré, la couleur du fond est bleu, ombre-->
+    <header>
+        <div><h1 class="big_title">elon musk</h1></div>
+    </header>
+    <main>
+        <!-- section 1 : photo de elon musk a gauche et une citation a droite-->
+        <section class="sec1">
+            <div class="quote_area"> 
+                <p id="quote">“When something is important enough, you do it even if the odds are not in your favor.“</p>
+                <p id="quote_name">- Elon Musk</p>
+            </div>
+            <img class="elon_pic" src="assets/elon_musk.jpg" />
+        </section>
+        <!-- section 2 : introduction de elon musk centré-->
+        <section class="sec2">
+            <h2>QUI EST ELON MUSK ?</h2>
+            <p class="intro">
+                Elon Musk est un entrepreneur briallant qui a révolutionné le transport terrestre et spatial. Il est le PDG de plusieurs grandes entreprises: Tesla, SpaceX et Boring Company ...
+            </p>
+        </section>
+        <!-- section 3 : lien vers les differents titres , tableau avec boredur invisible , centré -->
+        <section class="sec3">
+            <table class="bio_links">
+                <tr>
+                    <td><a href="./pages/enfance.html">Enfance</a></td>
+                    <td><a href="./pages/enfance.html">Etudes</a></td>
+                    <td><a href="./pages/vieprive.html">Vie privé</a></td>
+                </tr>
+                <tr>
+                    <td><a href="./pages/space.html">SpaceX</a></td>
+                    <td><a href="./pages/tesla.html">Tesla</a></td>
+                    <td><a href="./pages/autres.html">Autres</a></td>
+                </tr>
+            </table>
+        </section>
+        <!-- section 4 : lien vers son livre dans amazon.com -->
+        <section class="sec4">
+            <h2>LIVRE DE ELON MUSK </h2>
+        <div class="book">
+            <div class="book_area"> 
+                <p id="book_name">Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</p>
+                <p id="auth_name">by Ashlee Vance </p>
+            </div>
+            <a href="https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X"><img class="book_pic" src="assets/elonbook.jpg"/></a>
+        </div>
+        </section>
+    </main>
+    <!-- footer avec les noms du binome -->
+    <footer onclick="takemetop()">
+        <p class="foot_text">Créer par </p>
+        <p class="foot_text">Brahim El Khalil Houache</p>
+        <p class="foot_text">Bouazza Souad</p>
+    </footer>
+</body>
+</html>
+
+
